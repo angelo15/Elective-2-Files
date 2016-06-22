@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Assignment</title>
+</head>
+<body>
+
+	<form>INPUT TEXT HERE!!
+		<br />
+		<input type="text" name="in1" id="input1" onkeyup="writeinput1()"><br /></input>
+		<input type="text" name="in2" id="input2" onkeyup="writeinput2()"><br /></input>
+		<input type="text" name="in3" id="input3" onkeyup="writeinput3()"><br /></input>
+		<input type="text" name="in4" id="input4" onkeyup="writeinput4()"><br /></input>
+		<input type="text" name="in5" id="input5" onkeyup="writeinput5()"><br /></input>
+	</form>
+	
+	
+</body>
+	<script>
+			function writeinput1(){
+				var input = document.getElementById("input1");
+				var inputed = document.getElementsByTagName("input");
+					for(var i = 0; i < inputed.length;i++){
+						inputed[i].value = input.value;
+					}
+					
+			}
+			function writeinput2(){
+				var input = document.getElementById("input2");
+				var inputed = document.getElementsByTagName("input");
+					for(var i = 0; i < inputed.length;i++){
+						inputed[i].value = input.value;
+					}
+					
+			}
+				function writeinput3(){
+				var input = document.getElementById("input3");
+				var inputed = document.getElementsByTagName("input");
+					for(var i = 0; i < inputed.length;i++){
+						inputed[i].value = input.value;
+					}
+					
+			}
+				function writeinput4(){
+				var input = document.getElementById("input4");
+				var inputed = document.getElementsByTagName("input");
+					for(var i = 0; i < inputed.length;i++){
+						inputed[i].value = input.value;
+					}
+					
+			}
+				function writeinput5(){
+				var input = document.getElementById("input5");
+				var inputed = document.getElementsByTagName("input");
+					for(var i = 0; i < inputed.length;i++){
+						inputed[i].value = input.value;
+					}
+					
+			}
+	</script>
+</html>
